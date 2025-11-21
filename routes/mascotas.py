@@ -14,7 +14,7 @@ class MascotaBase(BaseModel):
     raza: Optional[str] = None
     edad: Optional[int] = None
     tipo: Optional[str] = None
-    historial_medico: Optional[str] = None
+    lipo: Optional[str] = None
     alergias: Optional[str] = None
     estado: Optional[str] = None
 
@@ -31,7 +31,7 @@ class MascotaUpdate(BaseModel):
     raza: Optional[str] = None
     edad: Optional[int] = None
     tipo: Optional[str] = None
-    historial_medico: Optional[str] = None
+    lipo: Optional[str] = None
     alergias: Optional[str] = None
     estado: Optional[str] = None
 

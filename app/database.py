@@ -15,3 +15,8 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+def init_db():
+    """Crear todas las tablas en la base de datos"""
+    Base.metadata.create_all(bind=engine)
